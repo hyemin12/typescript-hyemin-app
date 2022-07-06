@@ -1,0 +1,8 @@
+header {
+  display: flex;
+  justify-content: space-between;
+}
+.btn_group {
+  display: flex;
+  gap: 30px;
+}

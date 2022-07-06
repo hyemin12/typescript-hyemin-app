@@ -8,9 +8,11 @@ interface RouterProps {
 function AppRouters({ isLoggin }: RouterProps) {
   return (
     <HashRouter>
-      <Routes>
-        <Route path="/" element={<Home />}></Route>
-      </Routes>
+      <div className="container">
+        <Routes>
+          <Route path="/" element={<Home />}></Route>
+        </Routes>
+      </div>
     </HashRouter>
   );
 }
