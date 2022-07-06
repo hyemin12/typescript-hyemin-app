@@ -2,7 +2,19 @@ header {
   display: flex;
   justify-content: space-between;
 }
+header .logo {
+  color: #fff;
+}
+
 .btn_group {
   display: flex;
   gap: 30px;
+}
+.btn_group span {
+  color: #fff;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.btn_group span:hover {
+  color: #555;
 }
