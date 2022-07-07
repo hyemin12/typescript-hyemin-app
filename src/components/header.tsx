@@ -1,4 +1,8 @@
 import { Link } from "react-router-dom";
+
+import AccountCircleIcon from "@mui/icons-material/AccountCircle";
+import MapIcon from "@mui/icons-material/Map";
+import SearchIcon from "@mui/icons-material/Search";
 import "./header.css";
 
 function Header() {
@@ -9,9 +13,15 @@ function Header() {
       </Link>
 
       <div className="btn_group">
-        <span>로그인</span>
-        <span>지도</span>
-        <span>검색</span>
+        <span>
+          <AccountCircleIcon />
+        </span>
+        <span>
+          <MapIcon />
+        </span>
+        <span>
+          <SearchIcon />
+        </span>
       </div>
     </header>
   );
